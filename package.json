@@ -1,0 +1,43 @@
+{
+  "name": "beep-boop",
+  "version": "1.0.0",
+  "description": "[INSERT DESCRIPTION HERE ...]",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist/ & tsc",
+    "run": "node ./dist/index.js",
+    "dev": "npm run build && npm run run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtlepaws-workshop/horizon.git"
+  },
+  "author": "Turtlepaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turtlepaws-workshop/horizon/issues"
+  },
+  "homepage": "https://github.com/turtlepaws-workshop/horizon#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/klaw-sync": "^6.0.1",
+    "@types/node": "^17.0.21",
+    "@types/uuid": "^8.3.4",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "discord-api-types": "^0.35.0",
+    "discord.js": "^14.0.0-dev.1656158629-c4653f9",
+    "express": "^4.17.3",
+    "key-file-storage": "^2.2.10",
+    "klaw-sync": "^6.0.0",
+    "mongoose": "^6.2.8",
+    "paintfordiscord": "^1.0.3",
+    "utilsfordiscordjs": "^1.0.8",
+    "uuid": "^8.3.2"
+  }
+}
